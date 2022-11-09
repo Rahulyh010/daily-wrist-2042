@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtable Pricing</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <style>
+      #navbar{
+         margin: 0;
+         padding: 0;
+      }
+        #one{
+         
+            background-color: blue;
+            text-align: center;
+            color: white;
+            height: 8vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+            /* margin-top: 150px; */
+        }
+        #one>p{
+         margin-top: 500px;
+         background-color: red;
+        }
+        #two>h2{
+            font-size: 50px;
+          
+            width: 40%;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;       
+         }
+         #two{
+            margin-bottom: 150px;      
+           }
+         #cards{
+           
+            display: flex;
+            justify-content: center;
+            width: 90%;
+            margin: auto;
+            
+         }
+         #cards p{
+            font-size: 20px;
+         }
+         #cards h3{
+            font-size: 25px;
+         }
+         #cards h1{
+            font-size: 60px;
+         }
+         #card1{
+            padding: 15px;
+            width: 24%;
+            margin-left: 1%;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            border-radius: 13px;
+            border-color: black;
+         }
+         #card2{
+            padding: 15px;
+            width: 24%;
+            margin-left: 1%;
+            background-color: #FFEAB6;
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+            border-radius: 13px;
+         }
+         #card3{
+            padding: 15px;
+            width: 22%;
+            margin-left: 1%;
+            background-color: #d0f0fd;
+           
+         }
+         #popular{
+            margin-top:-50px;
+             background-color: blue; 
+             color: white; 
+             height: 6vh;
+              display: flex; 
+              align-items: center;
+               padding-left: 10px;
+               font-size: 20px;
+               border-top-left-radius: 15px;
+               border-top-right-radius: 15px;
+         }
+         #card4{
+            padding: 15px;
+            width: 22%;
+            margin-left: 1%;
+            background-color: hsl(0,0%,20%);
+            border-radius: 13px;
+         }
+         button{
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 10px;
+            
+            border-radius: 20px;
+         }
+         button:hover{
+            cursor: pointer;
+         }
+         li{
+            font-size: 17px;
+            line-height: 25px;
+         }
+         #compare{
+            border: 1px solid black;
+            height: 60vh;
+         }
+         #compare>p{
+            font-size: 30px;
+            font-weight: bold;
+            width: 35%;
+            margin: auto;
+            margin-top: 80px;
+         }
+         #trust p{
+            /* border: 1px solid red; */
+            width: 38%;
+            margin: auto;
+            font-size: 20px;
+            color: gray;
+         }
+         #img{
+            width: 80%;
+            margin: auto;
+            height: 40vh;
+         }
+         #img>img{
+            width: 90%;
+
+         }
+    </style>
+</head>
+<body>
+   <div id="navbar">
+
+   </div>
+    <div id="one">
+   <p>   Sign up today and try the Pro plan for free </p>  
+    </div>
+    <div id="two">
+       <h2>Choose the perfect plan for your team's needs </h2>
+    </div>    
+    <div id="cards">
+        <div id="card1">
+            <h3>Free</h3>
+          <p>For individuals or very small teams just getting started with Airtable </p>
+            <h1>Free</h1>
+            <button>Sign up</button>
+            <ul>
+                <li>Unlimited bases</li>
+                <li>Up to 5 creators or editors</li>
+                <li>Unlimited commentors & read-only users</li>
+                 <li>Interface Designers</li>
+                <li>1 extension per base</li>
+                <li>1 sync integration</li>
+                <li>1200 records per base</li>
+                <li>2GB or attachments per base</li>
+            </ul>
+        </div>
+        <div id="card2">
+            <h3>Plus</h3>
+            <p>For teams looking to create connected apps to manage their own workflows</p>
+            <h1 style="display: inline;"> $10</h1><span style="font-size:25px;"> per seat/month billed anually</span>
+            <p>$12 billed monthly</p>
+            <button>Try for free</button>
+            <p>Everything in Free, plus:</p>
+            <ul>
+                <li>3 extensions per base</li>
+                <li>3 sync integrations</li>
+                <li>5,000 records per base</li>
+                <li>5GB of attachments per base</li>
+                <li>Custom branded forms</li>
+                <li>6-month revision & snapshot history</li>
+                <li>Automatic table syncing</li>
+            </ul>
+        </div>
+        <div id="card3">
+            <p id="popular">Most Popular</p>
+            <h3>Pro</h3>
+            <p>For teams and departments who need to build connected apps to power their most important processes</p>
+            <h1>$20</h1><span>per seat/month billed anually</span>
+            <p>$24 billed monthly</p>
+            <button>Try for free</button>
+            <p>Everything in Plus, plus:</p>
+            <ul>
+                <li>10 extensions per base</li>
+                <li>7 sync integrations including Jira Cloud</li>
+                <li>50,000 records per base</li>
+                <li>20GB of attachments per base</li>
+                <li>Gantt & Timeline Views</li>
+                <li>Granular interface permissions</li>
+                <li>1-year revision & snapshot history</li>
+                <li>Personal & locked views</li>
+                <li>Field & table editing permissions</li>
+            </ul>
+        </div>
+        <div id="card4">
+            <h3>Enterprise</h3>
+            <p style="color: white;">For departments and organizations who need a secure, scalable, and customizable connected apps platform to stay aligned and move work forward</p>
+            <!-- <h1>$20</h1><span>per seat/month billed anually</span> -->
+            <!-- <p>$24 billed monthly</p> -->
+            <button>Contact sales</button>
+            <p>Everything in Pro, plus:</p>
+            <ul>
+                <li>Unlimited workspaces per organization</li>
+                <li>Unlimited extensions</li>
+                <li>Salesforce & Jira on-prem sync integrations</li>
+                <li>250,000 records per base</li>
+                <li>1,000GB of attachments per base</li>
+                <li>Advanced interface controls</li>
+                <li>3-year revision & snapshot history</li>
+                <li>SAML-based single sign-on</li>
+                <li>Enterprise-wide admin panel</li>
+                <li>Ongoing Success Program</li>
+                <li>Included Professional Services</li>
+                <li>Add-On Professional Services</li>
+            </ul>
+        </div>
+    </div>
+    <div id="compare">
+      <p>  See all features and compare plans </p>
+    </div>
+    <div id="trust">
+        <p>Trusted by 3,00,000+ forward-thinking companies worldwide</p>
+    </div>
+    <div id="img">
+        <img src="https://www.airtable.com/images/about/logos-horizontal.png" alt="">
+    </div>
+    <div id="ComparePlans">
+        <div id=""></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <script type="module" src="./src/navbarscript.js"></script>
+</body>
+</html>
