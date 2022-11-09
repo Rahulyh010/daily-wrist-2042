@@ -1,8 +1,14 @@
+body{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
 #navbar{
     font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
     width: 97%;
     margin: auto;
     position: fixed;
+top: 0px;
+left: 0;
+right: 0;
 }
 #navbar>div>p{
     text-align: center;
@@ -181,6 +187,37 @@ svg{
 #navbar>div>p>a{
     text-decoration: none;
     color: #1b61c9;
+}
+#footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+#footer>div>div>img{
+    height: 35px;
+}
+#upper-footer{
+    display: flex;
+    justify-content: space-between;
+}
+#upper-footer>div{
+    display: flex;
+    gap: 20px;
+}
+#upper-footer>div>a{
+    text-decoration: none;
+    color: black;
+}
+#socials>img{
+    height: 16px
+}
+#lower-footer{
+    display: flex;
+    justify-content: space-between;
+}
+#lower-footer>div>a{
+    text-decoration: none;
+    color: black;
 }
 ul,li {
 list-style-type: none;
