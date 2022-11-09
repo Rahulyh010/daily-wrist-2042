@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,60 +9,207 @@
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
 
     <style>
-        body{
+        body {
             margin: 0%;
             padding: 0%;
             background-image: url("https://static.airtable.com/images/blurred_base@2x.png");
-            font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+            background-size: 100% 100%;
+            opacity: 3;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         }
-        #box{
-            width: 45%;
+
+        #box {
+            width: 42%;
             background-color: white;
             border: 1px solid white;
-            margin-left: auto; 
+            margin-left: auto;
             margin-right: auto;
             margin-top: 2%;
+            margin-bottom: 2%;
+            border-radius: 5px;
+
         }
-        #img_header{
+
+        #img_header {
             padding: 4%;
             background-color: #f2f2f2;
             border: 0px;
         }
-        #img_div{
+
+        #img_div {
             text-align: center;
         }
-        #img_div img{
+
+        #img_div img {
             width: 200px;
         }
-        #signin_head{
+
+        #signin_head {
             display: flex;
             width: 80%;
-            margin-left: auto; 
+            margin-left: auto;
             margin-right: auto;
             justify-content: space-between;
+            margin-top: 40px;
         }
-        #signin_lock{
-            margin-bottom: 20px;
+
+        #signin_lock {
+            margin-bottom: 40px;
         }
-       p{
-            
+
+        i {
+            color: #cccccc;
+            font-size: x-small;
+        }
+
+        p {
+
             display: inline;
         }
-        #p_p{
+
+        #p_p {
             font-size: xx-large;
         }
+
         #createAcc {
             padding-top: 10px;
             margin-right: 2%;
         }
 
-        #createAcc a{
+        #createAcc a {
             font-size: larger;
             color: #3786fa;
         }
 
+        #content {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        input {
+            width: 95%;
+            padding: 2%;
+            font-size: medium;
+            border: 2px solid rgb(204, 204, 204);
+            background-color: #f2f2f2;
+
+        }
+
+        #inp_buts a {
+            font-size: medium;
+            color: #b3aca5;
+        }
+
+        #signin_btn {
+            width: 100%;
+            padding: 2.5%;
+            margin: 15px 0px 25px 0px;
+            font-size: medium;
+            color: white;
+            background-color: #96bffc;
+            border: none;
+        }
+
+        #email {
+            margin-bottom: 20px;
+        }
+
+        #inp_buts label {
+            font-size: large;
+        }
+
+        #horicontal_bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        hr {
+            height: 2px;
+            width: 100%;
+            background-color: hsl(0, 0%, 95%);
+            border: 1px solid hsl(0, 0%, 95%);
+        }
+
+        #horicontal_bar p {
+            color: hsla(0, 0%, 0%, 0.5)
+        }
+
+        #btns {
+            text-align: center;
+         
+        }
+
+        #btn1 {
+            width: 100%;
+            font-size: large;
+            padding: 12px;
+            border: 2px solid rgb(204, 204, 204);
+            background-color: #fff;
+            border-radius: 5px;
+            margin-bottom: 15px;
+
+        }
+        #btn1 p{
+            font-size: medium;
+        }
+
+        #btn2 {
+            width: 100%;
+            padding: 4px;
+            border: 2px solid rgb(204, 204, 204);
+            background-color: #fff;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        #btn1:hover{
+            border-color: black;
+        }
+        #btn2:hover{
+            border-color: black;
+        }
+
+        #g_icon {
+            font-size: large;
+        }
+
+        #g_icon img {
+            width: 22px;
+            padding-top: 2%;
+
+            text-align: center;
+            margin: auto;
+            padding-right: 2%;
+        }
+        #g_icon a>  p{
+            font-size: medium;
+        }
+
+        #btn2 a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #apple {
+            margin-bottom: 15px;
+
+        }
+
+        #apple a {
+            color: #b3aca5;
+           
+        }
+        #apple a:hover {
+           text-decoration-color:black;
+           
+        }
+        button{
+            cursor: pointer;
+        }
     </style>
 </head>
+
 <body>
     <div id="box">
         <div id="img_header">
@@ -71,13 +219,46 @@
         </div>
         <div id="signin_head">
             <div id="signin_lock">
-                <p id="p_p">Sign in </p> <p><i class="fa-solid fa-lock"></i></p>
+                <p id="p_p">Sign in </p>
+                <p><i class="fa-solid fa-lock"></i></p>
             </div>
             <div id="createAcc">
-                <p>or </p><a href="">create an account</a>
+                <p>or </p><a href="signup.html">create an account</a>
             </div>
         </div>
-        
+        <div id="content">
+            <div id="inp_buts">
+                <label for="email">Email</label><br>
+                <input type="text" placeholder="name@company.com" id="email"><br>
+                <label for="password">Password</label><br>
+                <input type="password" placeholder="********" id="password"><br>
+                <a href="">Forgot password?</a><br>
+                <button id="signin_btn">Sign in</button><br>
+            </div>
+            <div id="horicontal_bar">
+                <hr>
+                <p>or</p>
+                <hr>
+            </div>
+
+            <div id="btns">
+                <button id="btn2">
+                    <div id="g_icon"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png"
+                            alt=""> <a
+                            href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?state=%7B%22type%22%3A%22login%22%2C%22loginData%22%3A%7B%22mobileHandoffBaggage%22%3A%7B%7D%7D%2C%22authCsrfToken%22%3A%2297a489f55a7e071c1e4d7f17306462d4%22%7D&scope=openid%20email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcontacts.readonly&max_auth_age=0&response_type=code&client_id=300606332377-3jfk55flrbprmaorrtsi2g3o1rfu90ek.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fairtable.com%2Fauth%2FgoogleOauthLoginCallback&service=lso&o2v=2&flowName=GeneralOAuthFlow">
+                            <p>Sign in with </p>Google  </a> </div>
+                </button>
+                <button id="btn1"><p>Sign in with</p> Single Sign On</button>
+                <div id="apple"><a
+                        href="https://appleid.apple.com/auth/authorize?client_id=com.airtable&redirect_uri=https%3A%2F%2Fairtable.com%2Fauth%2FappleLoginCallback&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=%7B%22type%22%3A%22login%22%2C%22loginData%22%3A%7B%22mobileHandoffBaggage%22%3A%7B%7D%7D%2C%22authCsrfToken%22%3A%221dc0794ff4cb13c556945fb8f68da937%22%7D">Sign
+                        in with Apple</a>
+                </div>
+            </div>
+
+        </div>
     </div>
+
 </body>
+
 </html>
