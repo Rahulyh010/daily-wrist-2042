@@ -16,6 +16,10 @@
             <div id="img_div">
                 <img src="https://i.ibb.co/WPSSbPY/Sky-Table-Logo.png" alt="">
             </div>
+            
+        </div>
+        <div id="alert_msg">
+            <i class="fa-solid fa-triangle-exclamation"></i><p>Invalid password</p>
         </div>
         <div id="signin_head">
             <div id="signin_lock">
@@ -30,8 +34,11 @@
             <div id="inp_buts">
                 <label for="email">Email</label><br>
                 <input type="text" placeholder="name@company.com" id="email"><br>
-                <label for="password">Password</label><br>
+                <div id="email_span"><span></span></div><br>
+                <label id="pass_label" for="password">Password</label><br>
                 <input type="password" placeholder="********" id="password"><br>
+                <div id="pass_span"><span></span></div><br>
+
                 <a href="">Forgot password?</a><br>
                 <button id="signin_btn">Sign in</button><br>
             </div>
@@ -62,3 +69,4 @@
 </body>
 
 </html>
+<script src="scripts/signin.js"></script>
