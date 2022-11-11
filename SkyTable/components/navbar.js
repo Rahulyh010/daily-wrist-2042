@@ -17,8 +17,8 @@ const navbar=()=>{
         </div>
         <div id="right">
             <a href=""><button id="contact_btn">Contact Sales</button></a>
-            <a href=""><button id="signUp_btn">Sign up for free</button></a>
-            <a href=""><button id="signIn_btn">Sign in</button></a>
+            <a href="signupFree.html"><button id="signUp_btn">Sign up for free</button></a>
+            <a href="signin.html"><button id="signIn_btn">Sign in</button></a>
         </div>
     </div>
     <div id="product">
