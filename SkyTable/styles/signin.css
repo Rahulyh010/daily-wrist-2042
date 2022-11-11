@@ -32,7 +32,20 @@
         #img_div img {
             width: 200px;
         }
-
+        #alert_msg{
+            visibility: hidden;
+            padding: 0.5%;
+            background-color: #f82b60;
+        }
+        #alert_msg i{
+            font-size: medium;
+            margin-left: 2%;
+        }
+        #alart_msg p{
+            font-size: small;
+            margin-left: 5px;
+            color: white;
+        }
         #signin_head {
             display: flex;
             width: 80%;
@@ -100,10 +113,19 @@
             border: none;
         }
 
-        #email {
-            margin-bottom: 20px;
+        #pass_label {
+            margin-top: 15px;
         }
-
+        #email_span{
+            font-size: smaller;
+            color: red;
+            
+        }
+        #pass_span{
+            font-size: smaller;
+            color: red;
+            
+        }
         #inp_buts label {
             font-size: large;
         }
