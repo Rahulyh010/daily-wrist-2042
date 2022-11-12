@@ -16,7 +16,7 @@ const navbar=()=>{
             <div id="arrow"><img src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/13/null/external-chevron-arrows-tanah-basah-basic-outline-tanah-basah-4.png"/></div>
         </div>
         <div id="right">
-            <a href="ContactSales.html"><button id="contact_btn">Contact Sales</button></a>
+            <a href=""><button id="contact_btn">Contact Sales</button></a>
             <a href="signupFree.html"><button id="signUp_btn">Sign up for free</button></a>
             <a href="signin.html"><button id="signIn_btn">Sign in</button></a>
         </div>
