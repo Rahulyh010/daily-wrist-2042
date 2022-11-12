@@ -284,3 +284,112 @@ ul,
 li {
     list-style-type: none;
 }
+#virtual_assistant{
+    width: 300px;
+    height: 505px;
+    box-sizing: border-box;
+    background-color: white;
+}
+#bothead{
+    text-align: center;
+    background-color: #0768f8;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: white;
+}
+#msg_area{
+    height: 75%;
+    padding: 0px 12px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+#bot{
+    width: 35px;
+    height: 35px;
+    background:url(../images/logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px solid ;
+}
+#robot{
+    display: grid;
+    align-items: center;
+}
+#input{
+    height: 7%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 8px 16px;
+    border-radius: 32px;
+}
+#robot>h3{
+    font-size: 16px;
+    color: black;
+}
+#text{
+    outline: none;
+    font-size: 12px;
+    color: black;
+    border-radius: 7px;
+    padding:0 16px;
+    border: solid 1px #777;
+}
+#send{
+    outline: none;
+    font-size: 12px;
+    color: black;
+    border-radius: 7px;
+    border: none;
+    border: 1px solid grey;
+    transition-duration:0.2s;
+    background-color: #0768f8;
+    color: white;
+}
+#send:active{
+    font-size: 8px;
+    border: solid 1px;
+    background-color: #052d69;
+}
+.msg-left{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin-top: -10px;
+}
+.msg-right{
+    text-align: end;
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: #052d69;
+    color: #052d69;
+    font-size: 16px;
+}
+.msg-right:hover{
+    background-color: #052d69;
+    color: white;
+}
+#icon{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#virtual_assistant{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+#bothead{
+    display: flex;
+    justify-content:space-between;
+}
+#bothead>i{
+    margin-top: 23px;
+}
+#icon:hover{
+    cursor: pointer;
+}
+#close:hover{
+    cursor: pointer;
+}
