@@ -1,9 +1,16 @@
 import navbar from "/SkyTable/components/navbar.js"
 
+import footer from "/SkyTable/components/footer.js"
+
+
 //console.log(navbar());
 
 let navbar1= document.getElementById("navbar")
 navbar1.innerHTML=navbar();
+
+
+let footer1= document.getElementById("footer")
+footer1.innerHTML=footer();
 
 let arr=["https://cdn5.vectorstock.com/i/1000x1000/34/99/digital-marketing-tools-and-process-isometric-3d-vector-23923499.jpg",
 "https://tinyurl.com/2k4b5268",
