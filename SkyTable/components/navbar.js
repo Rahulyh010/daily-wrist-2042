@@ -3,7 +3,7 @@ const navbar=()=>{
     <div id="lower">
         <div id="left">
             <div id="logo">
-                <img src="https://i.ibb.co/WPSSbPY/Sky-Table-Logo.png" alt="">
+                <a href="index.html"><img src="https://i.ibb.co/WPSSbPY/Sky-Table-Logo.png" alt=""></a>
             </div>
             <p id="opt1">Product</p>
             <div id="arrow"><img src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/13/null/external-chevron-arrows-tanah-basah-basic-outline-tanah-basah-4.png"/></div>
