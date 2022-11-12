@@ -228,6 +228,7 @@ list-style-type: none;
     width: 300px;
     height: 505px;
     box-sizing: border-box;
+    background-color: white;
 }
 #bothead{
     text-align: center;
@@ -245,7 +246,7 @@ list-style-type: none;
 #bot{
     width: 35px;
     height: 35px;
-    background:url(logo.png);
+    background:url(../images/logo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 50%;

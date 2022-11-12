@@ -1,10 +1,14 @@
 
 import navbar from '../components/navbar.js'
 import footer from '../components/footer.js'
+import chatbot from '../components/chatbot.js'
+
 let navbar_div=document.getElementById('navbar')
 navbar_div.innerHTML=navbar()
 let footer_div=document.getElementById('footer')
 footer_div.innerHTML=footer()
+let chatbotdiv=document.getElementById('virtual_assistant')
+chatbotdiv.innerHTML=chatbot()
 let product=document.querySelector("#opt1")
 product.onclick=()=>{
     document.querySelector("#solutions>#dropdown").style.display="none";
