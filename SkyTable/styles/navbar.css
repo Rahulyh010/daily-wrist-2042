@@ -80,6 +80,7 @@ right: 0;
 #product{
     display: none;
     width: 1000px;
+    margin-bottom:100px;
 }
 #solutions{
     display: none;
@@ -105,6 +106,7 @@ svg{
     top: 100%;
     left: 0;
     width: 100%;
+    background-color: white;
     /* transform: translateY(-3em); */
     /* z-index: -1; */
     /* transition: all 1s ease 0s, visibility 0s linear 9.3s, z-index 0s linear 0.01s; */
