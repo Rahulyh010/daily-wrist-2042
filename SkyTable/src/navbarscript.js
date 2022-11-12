@@ -166,3 +166,6 @@ end.onclick=()=>{
     main.style.display="none"
     icon.style.display="flex"
 }
+document.querySelector("#opt3").onclick=()=>{
+    window.location.href="pricing.html"
+}
