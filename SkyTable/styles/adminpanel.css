@@ -1,0 +1,46 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    margin: 0%;
+    padding: 0%;
+    background-image: url("https://static.airtable.com/images/blurred_base@2x.png");
+    background-size: 100% 100%;
+    opacity: 3;
+}
+#head{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#head>#logo>a>img{
+    margin-top: 100px;
+}
+table {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+th{
+    background-color: #00807c;
+}
+#delete:hover{
+    cursor: pointer;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+#bottom{
+    margin-top: 50px;
+    text-align: center;
+}
+#btnAdd{
+    padding: 5px 20px;
+    border-radius: 7px;
+    border: none;
+}
+#btnAdd:hover{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}

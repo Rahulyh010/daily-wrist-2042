@@ -222,3 +222,16 @@
         button {
             cursor: pointer;
         }
+        #admin{
+            text-align: center;
+        }
+        #admin>a>button{
+            padding: 5px 20px;
+            border-radius: 7px;
+            border: none;
+        }
+        #admin>a>button:hover{
+            background-color:black;
+            color: white;
+            cursor: pointer;
+        }

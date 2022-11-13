@@ -143,16 +143,16 @@ svg {
     left: 0;
     width: 100%;
     background-color: white;
-    /* transform: translateY(-3em); */
-    /* z-index: -1; */
-    /* transition: all 1s ease 0s, visibility 0s linear 9.3s, z-index 0s linear 0.01s; */
+    /* transform: translateY(-3em); 
+    z-index: -1;
+    transition: all 1s ease 0s, visibility 0s linear 9.3s, z-index 0s linear 0.01s; */
 }
 
 /* #dropdown:hover{
-    /* visibility: visible; */
-/* opacity: 1; */
-/* z-index: 1; */
-/* transform: translateY(0);
+    visibility: visible;
+opacity: 1; 
+ z-index: 1;
+transform: translateY(0);
    transition-delay: 0s,0s,0.3s;
 } */
 #subdown {
