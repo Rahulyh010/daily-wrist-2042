@@ -6,142 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airtable Pricing</title>
     <link rel="stylesheet" href="./styles/navbar.css">
-    <style>
-      #navbar{
-         margin: 0;
-         padding: 0;
-      }
-        #one{
-         
-            background-color: blue;
-            text-align: center;
-            color: white;
-            height: 8vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 20px;
-            /* margin-top: 150px; */
-        }
-        #one>p{
-         margin-top: 500px;
-         background-color: red;
-        }
-        #two>h2{
-            font-size: 50px;
-          
-            width: 40%;
-            margin: auto;
-            margin-top: 50px;
-            text-align: center;       
-         }
-         #two{
-            margin-bottom: 150px;      
-           }
-         #cards{
-           
-            display: flex;
-            justify-content: center;
-            width: 90%;
-            margin: auto;
-            
-         }
-         #cards p{
-            font-size: 20px;
-         }
-         #cards h3{
-            font-size: 25px;
-         }
-         #cards h1{
-            font-size: 60px;
-         }
-         #card1{
-            padding: 15px;
-            width: 24%;
-            margin-left: 1%;
-            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-            border-radius: 13px;
-            border-color: black;
-         }
-         #card2{
-            padding: 15px;
-            width: 24%;
-            margin-left: 1%;
-            background-color: #FFEAB6;
-            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-            border-radius: 13px;
-         }
-         #card3{
-            padding: 15px;
-            width: 22%;
-            margin-left: 1%;
-            background-color: #d0f0fd;
-           
-         }
-         #popular{
-            margin-top:-50px;
-             background-color: blue; 
-             color: white; 
-             height: 6vh;
-              display: flex; 
-              align-items: center;
-               padding-left: 10px;
-               font-size: 20px;
-               border-top-left-radius: 15px;
-               border-top-right-radius: 15px;
-         }
-         #card4{
-            padding: 15px;
-            width: 22%;
-            margin-left: 1%;
-            background-color: hsl(0,0%,20%);
-            border-radius: 13px;
-         }
-         button{
-            padding-left: 80px;
-            padding-right: 80px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin-left: 10px;
-            
-            border-radius: 20px;
-         }
-         button:hover{
-            cursor: pointer;
-         }
-         li{
-            font-size: 17px;
-            line-height: 25px;
-         }
-         #compare{
-            border: 1px solid black;
-            height: 60vh;
-         }
-         #compare>p{
-            font-size: 30px;
-            font-weight: bold;
-            width: 35%;
-            margin: auto;
-            margin-top: 80px;
-         }
-         #trust p{
-            /* border: 1px solid red; */
-            width: 38%;
-            margin: auto;
-            font-size: 20px;
-            color: gray;
-         }
-         #img{
-            width: 80%;
-            margin: auto;
-            height: 40vh;
-         }
-         #img>img{
-            width: 90%;
+    <link rel="stylesheet" href="./pricing.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 
-         }
-    </style>
+     <script src="https://kit.fontawesome.com/a560f3a2e0.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <div id="navbar">
@@ -157,7 +25,7 @@
         <div id="card1">
             <h3>Free</h3>
           <p>For individuals or very small teams just getting started with Airtable </p>
-            <h1>Free</h1>
+            <h1 style="margin-top: 120px;">Free</h1>
             <button>Sign up</button>
             <ul>
                 <li>Unlimited bases</li>
@@ -173,7 +41,7 @@
         <div id="card2">
             <h3>Plus</h3>
             <p>For teams looking to create connected apps to manage their own workflows</p>
-            <h1 style="display: inline;"> $10</h1><span style="font-size:25px;"> per seat/month billed anually</span>
+            <p style=" margin-top:130px; font-size: 50px; font-weight: bold;"> $10</p><span style="font-size:25px;"> per seat/month billed anually</span>
             <p>$12 billed monthly</p>
             <button>Try for free</button>
             <p>Everything in Free, plus:</p>
@@ -240,11 +108,137 @@
         <img src="https://www.airtable.com/images/about/logos-horizontal.png" alt="">
     </div>
     <div id="ComparePlans">
-        <div id=""></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div id="fundamentals">
+         <h2>Compare our plans</h2>
+         <p style="margin-top: 100px; font-weight:bold">Fundamentals</p>
+         <p>Bases</p>
+         <p>Maximum number of users</p>
+         <p>Records per base</p>
+         <p>Records per table</p>
+         <p>Attachment space per base</p>
+         <p>Revision and snapshot history</p>
+         <p>Rich field types including attachments,checkboxed,dropdowns, and more</p>
+         <p>Web,desktops,iOS, and Android apps</p>
+         <p>Realtime collaboration and commenting</p>
+         <p style="font-weight: bold;margin-top:70px;">Views</p>
+         <p> Grid,calender,form,kanban,and gallery views</p>
+         <p>Gantt view</p>
+         <p>Timeline view</p>
+         <p>Personal and locked views</p>
+         <p>Sections</p>
+         <p style="font-weight: bold;margin-top:70px;">Interface Designer</p>
+         <p>Design interactive applications with a drag-and-drop experience</p>
+         <p>Granular interface permissions</p>
+         <p>Group level user management and admin panel support</p>
+        </div>
+        <div id="Free"> <h3 >Free</h3>
+      <button  class="part2">Sign up</button>
+   <p class="unlimited">Unlimited</p>
+   <p>5</p>
+   <p>1200</p>
+<p>1200</p>
+<p>2GB</p>
+<p>2-week</p>
+<p>Yes</p>
+<p>Yes</p>
+<p>Yes</p>
+<p style="margin-top: 125px">Yes</p>
+<p style="margin-top: 270px">Yes</p>
+</div>
+        <div id="Plus"> <h3>Plus</h3><button class="part2">Try for free</button>
+         <p class="unlimited">Unlimited</p>
+      <p>Unlimited</p>
+   <p>5000</p>
+<p>5000</p>
+<p>5GB</p>
+<p>6-month</p>
+<p>Yes</p>
+<p>Yes</p>
+<p>Yes</p>
+<p style="margin-top: 125px">Yes</p>
+<p style="margin-top: 270px">Yes</p>
+</div>
+        <div id="Pro"><h3>Pro</h3><button  class="part2" style="background-color:blue; color:white; border: none; cursor: pointer;">Try for free</button>  <p class="unlimited">Unlimited</p>
+            <p>Unlimited</p>
+         <p>50000</p>
+      <p>50000</p>
+      <p>20GB</p>
+      <p>1-year</p>
+      <p>Yes</p>
+      <p>Yes</p>
+      <p>Yes</p>
+      <p style="margin-top: 125px">Yes</p>
+      
+      <p>Yes</p>
+      <p>Yes</p>
+      <p>Yes</p>
+      <p>Yes</p>
+      <p style="margin-top: 120px;">Yes</p>
+      <p>Yes</p>
     </div>
+        <div id="Enterprise"><h3 style="color: white;">Enterprise</h3><button  class="part2">Contact sales</button> 
+             <p class="unlimited">Unlimited</p>
+             <p>Unlimited</p>
+   <p>5000</p>
+<p>5000</p>
+<p>5GB</p>
+<p>6-month</p>
+<p>Yes</p>
+<p>Yes</p>
+<p>Yes</p>
+<p style="margin-top: 125px">Yes</p>
+      <p>Yes</p>
+      <p>Yes</p>
+      <p>Yes</p>
+      <p>Yes</p>
+      <p style="margin-top: 120px;">Yes</p>
+      <p>Yes</p>
+</div>
+
+     
+    </div>
+    <p style="width:90%;margin:auto; font-size:13.25px">Service levels determined based on spend; customer base trainings and base build services available to qualified customers as set forth on an applicable order form. Services expore if they are not utilized within the contract term.</p>
+    <div id="additional">
+      Have additional questions?
+    </div>
+    <div id="billings">
+      <div id="pricing">
+         <p>BILLING/PRICING</p> 
+         <p style="color: blue; text-align: center;line-height: 0px;">Billing FAQ</p>
+      </div>
+      <div id="special_plans">
+         <p>SPECIAL PLANS FOR</p>
+         <p style="color: blue; text-align: center;line-height: 0px;">Nonprofits or Education</p>
+      </div>
+      <div id="enterprise">
+         <p>ENTERPRISE PLANS</p>
+         <p style="color: blue; text-align: center; line-height: 0px;">Contact sales</p>
+      </div>
+    </div>
+    <p style="font-weight: bold; text-align: center; font-size: 25px; margin-top: 70px;"> Frequently asked questions </p>
+    <div id="FAQ">
+      <p>How does Airtable's pricing work?</p>
+      <p><hr></p>
+      <p>How does Airtable's Enterprise pricing work?</p>
+      <p><hr></p>
+      <p>Is Airtable free to use?</p>
+      <p><hr></p>
+      <p>How much does Airtable cost?</p>
+      <p><hr></p>
+      <p>What are my payment options?</p>
+      <p><hr></p>
+      <p>What happens when I hit my usage limit?</p>
+      <p><hr></p>
+      <p>What's an Airtable base?</p>
+      <p><hr></p>
+      <p>What is revision history?</p>
+      <p><hr></p>
+      <p>What are the per-base record and attachment limits?</p>
+      <p><hr></p>
+      <p>What are syn integrations?</p>
+      <p><hr></p>
+    </div>
+    <div id="footer"></div>
     <script type="module" src="./src/navbarscript.js"></script>
 </body>
 </html>

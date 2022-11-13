@@ -1,0 +1,205 @@
+#lower{
+    background-color: white;
+        }
+            #one>p{
+             
+             height: 8vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                color: white;
+             margin-top: 180px;
+             background-color: blue;
+            }
+            #two>h2{
+                font-size: 50px;
+              
+                width: 45%;
+                margin: auto;
+                margin-top: 20px;
+                text-align: center;       
+             }
+             #two{
+                margin-bottom: 150px;      
+               }
+             #cards{
+               
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin: auto;
+                
+             }
+             #cards p{
+                font-size: 20px;
+             }
+             #cards h3{
+                font-size: 25px;
+             }
+             #cards h1{
+                font-size: 60px;
+             }
+             #card1{
+                padding: 15px;
+                width: 24%;
+                margin-left: 1%;
+                box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                border-radius: 13px;
+                border-color: black;
+             }
+             #card2{
+                padding: 15px;
+                width: 24%;
+                margin-left: 1%;
+                background-color: #FFEAB6;
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+                border-radius: 13px;
+             }
+             #card3{
+                padding: 15px;
+                width: 22%;
+                margin-left: 1%;
+                background-color: #d0f0fd;
+               
+             }
+             #popular{
+                margin-top:-50px;
+                width: 107%;
+                margin-left: -15px;
+                 background-color: blue; 
+                 color: white; 
+                 height: 6vh;
+                  display: flex; 
+                  align-items: center;
+                   padding-left: 10px;
+                
+                   border-top-left-radius: 15px;
+                   border-top-right-radius: 15px;
+             }
+             #card4{
+                padding: 15px;
+                width: 22%;
+                margin-left: 1%;
+                background-color: hsl(0,0%,20%);
+                border-radius: 13px;
+             }
+             button{
+                padding-left: 80px;
+                padding-right: 80px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-left: 10px;
+                
+                border-radius: 20px;
+             }
+             button:hover{
+                cursor: pointer;
+             }
+             li{
+                font-size: 17px;
+                line-height: 25px;
+             }
+             #compare{
+                border: 1px solid black;
+                height: 50vh;
+             }
+             #compare>p{
+                font-size: 30px;
+                font-weight: bold;
+                width: 40%;
+                margin: auto;
+                margin-top: 30px;
+             }
+             #trust p{
+                /* border: 1px solid red; */
+                width: 45%;
+                margin: auto;
+                font-size: 20px;
+                color: gray;
+                margin-bottom: 40px;
+             }
+             #img{
+                width: 80%;
+                margin: auto;
+                height: 40vh;
+             }
+             #img>img{
+                width: 90%;
+    
+             }
+             #ComparePlans{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin: auto;
+             }
+             #fundamentals{
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+             }
+             #Free{
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+             }
+             #Plus{
+                background-color: #FFEAB6;
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+             }
+             #Pro{
+                background-color: #d0f0fd;
+             }
+             #Enterprise{
+                background-color: black;
+             }
+             .part2{
+                
+                padding-left: 40px;
+                padding-right: 40px;
+             }
+             #Free{
+                width: 22%;
+             }
+             #Plus{
+                width: 22%;
+             }
+             #Pro{
+                width: 22%;
+             }
+             #Enterprise{
+                width: 22%;
+             }
+             .unlimited{
+                margin-top: 85px;
+                text-align: center;
+             }
+             #additional{
+                font-weight: bold;
+                font-size: 25px;
+                text-align: center;
+                margin-top: 60px;
+                /* border: 1px solid teal; */
+             }
+             #billings{
+                width: 70%;
+                margin: auto;
+                display: flex;
+                justify-content: space-around ;
+             }
+             #FAQ{
+                width: 50%;
+                margin: auto;
+             }
+#Free>p{
+   text-align: center;
+}
+#Plus>p{
+   text-align: center;
+}
+#Pro>p{
+   text-align: center;
+}
+#Enterprise>p{
+   color: white;
+   text-align: center;
+}

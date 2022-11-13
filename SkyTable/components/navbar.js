@@ -1,7 +1,7 @@
 const navbar=()=>{
     return `<div><p>Join our webinar to see how new Airtable features can transform your work <a href="">Register-></a></p></div>
-    <div id="lower">
-        <div id="left">
+    <div id="lower" style="background-color:white">
+        <div id="left" >
             <div id="logo">
                 <img src="https://i.ibb.co/WPSSbPY/Sky-Table-Logo.png" alt="">
             </div>
@@ -22,7 +22,7 @@ const navbar=()=>{
         </div>
     </div>
     <div id="product">
-        <div id="dropdown">
+        <div id="dropdown" style="background-color:white">
             <div>
                 <a class="heading">Overview</a><br>
             <a class="desc">Welcome to SkyTable! Here's the basics</a>
@@ -93,7 +93,7 @@ const navbar=()=>{
         </div>
     </div>
     <div id="solutions">
-        <div id="dropdown">
+        <div id="dropdown" style="background-color:white">
             <div>
                 <p class="heading" id="team">By team<img src="https://img.icons8.com/metro/13/null/chevron-right.png"/></p>
                 <p class="desc">See how teams of all stripes and sizes use SkyTable</p>
@@ -130,7 +130,7 @@ const navbar=()=>{
         </div>
     </div>
     <div id="enterprise">
-        <div id="dropdown">
+        <div id="dropdown" style="background-color:white">
             <div>
                 <a href="" class="heading">Enterprise Overview</a>
                 <a href="" class="desc">See how SkyTable scales for large and complex organizations</a>
@@ -151,7 +151,7 @@ const navbar=()=>{
         </div>
     </div>
     <div id="resources">
-        <div id="dropdown">
+        <div id="dropdown" style="background-color:white">
             <li class="heading">Learn
                 <ul>
                     <li><a href="" class="heading">Webinars</a></li>
