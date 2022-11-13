@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/signin.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+
+<body>
+    <div id="box">
+        <div id="img_header">
+            <div id="img_div">
+                <img src="../SkyTable/images/skytable.png" alt="">
+            </div>
+            
+        </div>
+        
+        <div id="signin_head">
+            <div id="signin_lock">
+                <p id="p_p">Sign in </p>
+                <p><i class="fa-solid fa-lock"></i></p>
+            </div>
+            <div id="createAcc">
+                <p>or </p><a href="signupFree.html">create an account</a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="inp_buts">
+                <label for="email">Email</label><br>
+                <input type="text" placeholder="name@company.com" id="email"><br>
+                <div id="email_span"><span></span></div><br>
+                <label id="pass_label" for="password">Password</label><br>
+                <input type="password" placeholder="********" id="password"><br>
+                <div id="pass_span"><span></span></div><br>
+
+                <a href="signupFree.html">Forgot password?</a><br>
+                <button id="signin_btn">Sign in</button><br>
+            </div>
+            <div id="horicontal_bar">
+                <hr>
+                <p>or</p>
+                <hr>
+            </div>
+
+            <div id="btns">
+                <button id="btn2">
+                    <div id="g_icon"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png"
+                            alt=""> 
+                            <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?state=%7B%22type%22%3A%22login%22%2C%22loginData%22%3A%7B%22mobileHandoffBaggage%22%3A%7B%7D%7D%2C%22authCsrfToken%22%3A%2297a489f55a7e071c1e4d7f17306462d4%22%7D&scope=openid%20email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcontacts.readonly&max_auth_age=0&response_type=code&client_id=300606332377-3jfk55flrbprmaorrtsi2g3o1rfu90ek.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fairtable.com%2Fauth%2FgoogleOauthLoginCallback&service=lso&o2v=2&flowName=GeneralOAuthFlow">
+                            <p>Sign in with </p>Google  </a> </div>
+                </button>
+                <button id="btn1"><p><a href="">Sign in with</p> Single Sign On</a></button>
+                <div id="apple"><a
+                        href="https://appleid.apple.com/auth/authorize?client_id=com.airtable&redirect_uri=https%3A%2F%2Fairtable.com%2Fauth%2FappleLoginCallback&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=%7B%22type%22%3A%22login%22%2C%22loginData%22%3A%7B%22mobileHandoffBaggage%22%3A%7B%7D%7D%2C%22authCsrfToken%22%3A%221dc0794ff4cb13c556945fb8f68da937%22%7D">Sign
+                        in with Apple</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="admin">
+        <a href="adminlogin.html"><button>Login as Admin</button></a>
+    </div>
+
+</body>
+
+</html>
+<script src="scripts/signin.js"></script>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sales</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <style>
+    #main{
+        /* margin-top: 12%; */
+        background-color:black;
+        height: 110vh;
+    }
+    #main>p{
+        color: white;
+      
+        width: 70%;
+        margin: auto;
+        font-size: 50px;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+    #box1{
+        height: 85vh;
+        width: 40%;
+        background-color: white;
+       
+        margin: auto;
+    }
+    #box1>input{
+        display: block;
+        width: 80%;
+        height: 4vh;
+        margin-left: 20px;
+    }
+    #box1>button{
+        margin-left: 20px;
+        width: 82%;
+        background-color: grey;
+        color: white;
+        font-weight: bold;
+        height: 4vh;
+        border: none;
+        
+    }
+    #box1>button:hover{
+        cursor: pointer;
+    }
+    #main{
+        margin-top: 12%;
+        display: flex;
+        justify-content: center;
+    }
+    #explore{
+        /* padding-top: 200px; */
+        border: 1px solid teal;
+        /* color: white; */
+        font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <!-- <span id="explore">Explore how Airtable can work for you.</span> -->
+    <div id="main" style="background-color: #333333;">
+       
+        <!-- Explore how Airtable can work for you -->
+        <div id="box1">
+            <p style="margin-left: 250px; padding-top: 20px; padding-bottom: 20px; font-weight: bold;">Looking for help?<span style="color: blue;">Message support</span></p>
+            <hr>
+            <h3 style="margin-left: 20px;">Ready to chat with sales?</h3>
+            <input type="text" required placeholder="Work email address"><br>
+            <input type="text" required placeholder="Full name"><br>
+            <input type="text" required placeholder="Phone number"><br>
+            <input type="text" required placeholder="Company name"><br>
+            <input type="text" required placeholder="Job title or department"> <br>
+            <button>Next</button>
+            <p style="font-size: 10px; width: 90%; margin: auto;">By clicking "Next", you acknowledge that your data will be handled in accordance with <span>Airtable's Privacy Policy,</span>
+            and you authorize Airtable to send you updates about Airtable products,services,and events.</p>
+            
+        </div>
+            <div id="img" style="margin-top: 100px;">
+                <img src="./images/air.PNG" alt="">
+                <hr>
+                <p>Looking for <span style="color: blue;">support</span></p>
+                <p>Are you a <span style="color: blue;">non-profit</span> or <span style="color: blue; cursor: pointer;">educational institution?</span></p>
+            </div>   
+    </div>
+    <!-- <input type="text"> -->
+    <div id="footer" style="margin-top: 20px"></div>
+    <script type="module" src="./src/navbarscript.js"></script>
+</body>
+</html>
