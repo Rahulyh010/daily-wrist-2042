@@ -2,11 +2,11 @@ const footer=()=>{
 return `<div id="upper-footer">
 <div>
     <img src="https://i.ibb.co/6FW5f76/logo.png" alt="">
-<a href="">Price</a>
+<a href="">Product</a>
 <a href="">Solutions</a>
 <a href="">Pricing</a>
 <a href="">Enterprise</a>
-<a href="">Resources</a>
+<a href="">Contact Sales</a>
 </div>
 <div id="socials">
     <img src="https://img.icons8.com/ios-glyphs/30/null/facebook-new.png"/>
